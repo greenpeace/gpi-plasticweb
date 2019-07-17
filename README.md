@@ -1,5 +1,6 @@
 # Read data from BigQuery
-This cloud functions makes a sql query to BigQuery and the result can be be used in a webapp or mobile app 
+
+This cloud functions makes a sql query to BigQuery and the result can be be used in a webapp or mobile app
 
 ### Setting up
 
@@ -12,3 +13,5 @@ Set the `bigquery.datasetname` and `bigquery.tablename` Google Cloud environment
 Please deploy your functions for the change to take effect by running firebase deploy --only functions
 
 `firebase deploy --only functions:plasticwebapp`
+
+## Test pulling up
